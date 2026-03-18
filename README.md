@@ -125,10 +125,10 @@ The project includes automated tests to ensure reliability.
 - Cloud deployment (AWS / Azure / GCP)
 - API integrations for external services
 
-  # Developer :
-  ## Govind Sharma
-  -Btech(Electronics & Communication Engineering)
-  Meerut Institute of Engineering & Technology
+# Developer :
+## Govind Sharma
+-Btech(Electronics & Communication Engineering)
+ -Meerut Institute of Engineering & Technology
  ## Internship Organization: Sopra Steria Ltd.
 
 ## License : 
