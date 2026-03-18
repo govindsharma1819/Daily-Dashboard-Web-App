@@ -83,3 +83,53 @@ pip
  cd daily-dashboard
 - Create Vitual Environment
   python -m venv .venv
+- Activate environment
+- Windows
+  .venv\Scripts\activate
+- Linux/Mac
+ source .venv/bin/activate
+- Install Dependencies
+  pip install -r requirements.txt
+- Configure Environment
+  cp .env.example .env
+- Update environment variables as needed.
+- Initialize Database
+  sqlite3 dashboard.db < database_setup.sql
+- Run Application
+  python app.py
+- Open in Browser
+ http://localhost:5000
+
+# Testing
+The project includes automated tests to ensure reliability.
+-Run tests
+ pytest
+ ## Test coverage includes:
+-Database operations
+-Authentication system
+-PostgreSQL compatibility
+-Query performance
+
+## Security Features:
+- Password Hashing
+- Secure Session Management
+- Environment Variable Protection
+- Input Validation
+- HTTPS Support
+
+## Future Improvements:
+- Real-time alerts and notifications
+- Machine learning based insights
+- Mobile application interface
+- Multi-user role management
+- Cloud deployment (AWS / Azure / GCP)
+- API integrations for external services
+
+  # Developer :
+  ## Govind Sharma
+  -Btech(Electronics & Communication Engineering)
+  Meerut Institute of Engineering & Technology
+ ## Internship Organization: Sopra Steria Ltd.
+
+## License : 
+This project is for educational and demonstration purposes.
